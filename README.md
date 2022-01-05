@@ -31,7 +31,7 @@ video
 ### Requirements
 
 1. Google Json - `gson-2.8.2.jar`
-2. MySQL Connector J - `sqlite-jdbc-3.7.2.jar`
+2. SQLite JDBC - `sqlite-jdbc-3.7.2.jar`
 3. Các thư viện liên quan trong lib - `.jar`
 4. Thêm Library - `JUnit 5`
 5. JavaFX SDK
