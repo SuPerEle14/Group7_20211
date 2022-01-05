@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="881.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="RED" layoutX="326.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAYMENT CONFIRMATION">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Pane layoutX="322.0" layoutY="245.0" prefHeight="300.0" prefWidth="410.0">
+         <children>
+            <Text fill="#d71d1d" layoutX="13.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card number">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#d71d1d" layoutX="13.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card holder name">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#d71d1d" layoutX="14.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expiration date">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text fill="#d71d1d" layoutX="16.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card security code">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="cardCode" layoutX="152.0" layoutY="14.0" prefHeight="25.0" prefWidth="216.0" text="kscq2_grou7_2021" />
+            <TextField fx:id="cardHolderName" layoutX="152.0" layoutY="54.0" prefHeight="25.0" prefWidth="216.0" text="Group 7" />
+            <TextField fx:id="cardExpirationDate" layoutX="152.0" layoutY="101.0" prefHeight="25.0" prefWidth="216.0" text="11/25" />
+            <TextField fx:id="cardSecurityCode" layoutX="152.0" layoutY="144.0" prefHeight="25.0" prefWidth="216.0" text="125" />
+            <Text fill="#d71d1d" layoutX="16.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment amount">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="amount" layoutX="152.0" layoutY="188.0" prefHeight="25.0" prefWidth="216.0" text="200000" />
+            <Button fx:id="btnConfirm" defaultButton="true" layoutX="118.0" layoutY="237.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="180.0" style="-fx-background-color: #30D42E;" text="Thanh toán" textFill="#d0e134">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <ImageView fx:id="capstoneImage" fitHeight="151.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="173.0" prefHeight="134.0" prefWidth="708.0" style="-fx-background-color: FF4500;">
+         <children>
+            <Text fill="#12a807" layoutX="239.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COME WITH US">
+               <font>
+                  <Font name="Broadway" size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#12a807" layoutX="210.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AND YOU WILL SEE">
+               <font>
+                  <Font name="Broadway" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <ImageView fx:id="home" fitHeight="63.0" fitWidth="70.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rentalBike" fitHeight="63.0" fitWidth="70.0" layoutX="76.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="card" fitHeight="63.0" fitWidth="70.0" layoutX="163.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon2.png" />
+         </image>
+      </ImageView>
+      <Text fill="RED" layoutX="18.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment method">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <VBox layoutX="18.0" layoutY="300.0" prefHeight="117.0" prefWidth="162.0">
+         <children>
+            <RadioButton disable="true" mnemonicParsing="false" selected="true" text="Credit Card">
+               <font>
+                  <Font name="Calibri" size="16.0" />
+               </font>
+            </RadioButton>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

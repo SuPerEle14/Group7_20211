@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="881.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="capstoneImage" fitHeight="147.0" fitWidth="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="186.0" layoutY="7.0" prefHeight="135.0" prefWidth="680.0" style="-fx-background-color: FF4500;">
+         <children>
+            <Text fill="#38dc26" layoutX="225.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COME WITH US">
+               <font>
+                  <Font name="Broadway" size="27.0" />
+               </font>
+            </Text>
+            <Text fill="#38dc26" layoutX="187.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AND YOU WILL SEE">
+               <font>
+                  <Font name="Broadway" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="162.0" layoutY="268.0" prefHeight="261.0" prefWidth="590.0">
+         <children>
+            <Text fill="#d71d1d" layoutX="65.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Code:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="cardCode" layoutX="196.0" layoutY="45.0" prefHeight="38.0" prefWidth="251.0" text="20183937" />
+            <Text fill="#d71d1d" layoutX="65.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="cardPassword" layoutX="196.0" layoutY="102.0" prefHeight="38.0" prefWidth="251.0" text="123456789" />
+            <Button fx:id="btnLogin" layoutX="229.0" layoutY="166.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="150.0" text="Sign in">
+               <font>
+                  <Font size="24.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Text fill="RED" layoutX="335.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card Information">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Pane layoutX="16.0" layoutY="161.0" prefHeight="49.0" prefWidth="150.0">
+         <children>
+            <ImageView fx:id="home" fitHeight="49.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon3.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rentalBike" fitHeight="49.0" fitWidth="57.0" layoutX="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card" fitHeight="49.0" fitWidth="47.0" layoutX="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@icon2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
