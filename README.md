@@ -1,14 +1,9 @@
 # Đã sửa sau khi báo cáo
-# Phần mềm thuê xe Bike Rental - Thiết kế và cài đặt bởi nhóm 7
+# Phần mềm thuê xe Bike Renta
 
 Các thành viên trong nhóm
 
 1. Trần Thế Lâm
-2. Lê Thành Nam
-3. Việt Thắng
-4. Mạnh Đức
-5. Văn Đức
-6. Trung Nghĩa
 
 ## Mô tả chi tiết và demo sản phẩm
 
