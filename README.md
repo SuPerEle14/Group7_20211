@@ -4,6 +4,7 @@
 Các thành viên trong nhóm
 
 1. Trần Thế Lâm
+2. Lê Thành Nam
 
 ## Mô tả chi tiết và demo sản phẩm
 
